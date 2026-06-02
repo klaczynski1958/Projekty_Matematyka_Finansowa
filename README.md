@@ -34,6 +34,6 @@ Model analizuje historyczne notowania giełdowe wybranych aktywów w celu:
 ---
 
 ## ⚖️ Prawa autorskie / Copyright
-**Copyright (c) 2026 [Twoje Imię i Nazwisko]. Wszelkie prawa zastrzeżone.**
+**Copyright (c) 2026 Kacper Łączyński. Wszelkie prawa zastrzeżone.**
 
 *Kod oraz wyniki analizy znajdujące się w tym repozytorium stanowią część portfolio projektowego i zostały udostępnione publicznie wyłącznie w celach poglądowych. Kopiowanie, modyfikowanie, dystrybucja lub wykorzystanie komercyjne bez wyraźnej zgody autora jest zabronione.*
