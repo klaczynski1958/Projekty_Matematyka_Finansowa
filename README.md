@@ -48,7 +48,7 @@ Do analizy wybrano algorytmy takie jak Regresja Logistyczna (z karą L2) oraz Dr
 
 ### 3. Optymalizacja Progu Decyzyjnego (Thresholding)
 Zamiast standardowego progu klasyfikacji (50%), zastosowano siatkę poszukiwań (*Grid Search*) do symulacji budżetowej każdego możliwego progu od 1% do 99%. Model samodzielnie zidentyfikował optymalny punkt odcięcia (np. próg na poziomie 8.9%), który generował najmniejszy całkowity koszt dla systemu opieki zdrowotnej.
-* **Skutek:** Celowo poświęcono Specyficzność (Swoistość) na rzecz ekstremalnie wysokiej **Czułości (powyżej 97%)**. Model woli wysłać kilku zdrowych pacjentów na niepotrzebne badania, aby mieć pewność, że nie przeoczy żadnego pacjenta z grupy najwyższego ryzyka.
+* **Skutek:** Celowo poświęcono Swoistość na rzecz ekstremalnie wysokiej **Czułości (powyżej 97%)**. Model woli wysłać kilku zdrowych pacjentów na niepotrzebne badania, aby mieć pewność, że nie przeoczy żadnego pacjenta z grupy najwyższego ryzyka.
 
 ### 4. Weryfikacja Niezawodności (Metoda Bootstrap)
 Aby dowieść stabilności modelu i odnieść się do Prawa Wielkich Liczb, zaimplementowano symulację losowania ze zwracaniem (**Bootstrap**). Na podstawie 1000 iteracji wygenerowano wirtualne próby pacjentów, wyznaczając 95-procentowe przedziały ufności (Confidence Intervals) dla kluczowych metryk (AUC oraz Czułości).
@@ -56,11 +56,12 @@ Aby dowieść stabilności modelu i odnieść się do Prawa Wielkich Liczb, zaim
 ---
 
 ## 🛠️ Wykorzystane Technologie i Narzędzia
-* **Język programowania:** Python
+* **Język programowania:** Python (stworzone przy pomocy AI)
 * **Czyszczenie i manipulacja danymi:** `pandas`, `numpy`
 * **Uczenie maszynowe:** `scikit-learn` (LogisticRegression, DecisionTreeClassifier, standardyzacja danych, metryki oceny)
 * **Wizualizacja:** `matplotlib`, `seaborn` (Krzywe ROC, Macierze Pomyłek)
 * **Walidacja statystyczna:** `resample` (Bootstrap)
+  
 
 ---
 
