@@ -56,7 +56,7 @@ Aby dowieść stabilności modelu i odnieść się do Prawa Wielkich Liczb, zaim
 ---
 
 ## 🛠️ Wykorzystane Technologie i Narzędzia
-* **Język programowania:** Python (stworzone przy pomocy AI)
+* **Język programowania:** Python (kody stworzone przy pomocy AI)
 * **Czyszczenie i manipulacja danymi:** `pandas`, `numpy`
 * **Uczenie maszynowe:** `scikit-learn` (LogisticRegression, DecisionTreeClassifier, standardyzacja danych, metryki oceny)
 * **Wizualizacja:** `matplotlib`, `seaborn` (Krzywe ROC, Macierze Pomyłek)
