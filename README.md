@@ -34,8 +34,7 @@ Większość standardowych modeli uczenia maszynowego skupia się na maksymaliza
 
 Celem projektu jest stworzenie modelu predykcyjnego oceniającego ryzyko udaru mózgu, którego głównym zadaniem jest **minimalizacja strat budżetowych państwa (NFZ)**. W modelu założono, że koszt przeoczenia chorych pacjentów (Fałszywie Negatywni – 150 000 PLN z tytułu rehabilitacji i renty) jest drastycznie wyższy niż koszt prewencyjnego badania zdrowych pacjentów (Fałszywie Pozytywni – 2 000 PLN za rezonans magnetyczny).
 
-Plik pdf: 
-Plik kody:
+**Plik:** `UDAR_PROJEKT.pdf`
 
 ---
 
